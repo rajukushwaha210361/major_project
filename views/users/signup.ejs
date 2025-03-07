@@ -1,0 +1,24 @@
+<%layout("/layouts/boilerplate")%>
+    <div class="row mt-3">
+        <div class="col-6 offset-3">
+            <h2>SignUp to EasyStay</h2>
+            <form action="/signup" method="post"novalidate class="needs-validation">
+                <div>
+                    <label for="username" class="form-lable">Username</label>
+                    <input class="form-control" placeholder="Enter the username" name="username" type="text" required>
+                    <div class="valid-feedback">Title looks good</div>
+                </div>
+                <div>
+                    <label for="Email" class="form-lable">Email</label>
+                    <input class="form-control" placeholder="Enter the Emial" name="email" type="email" required>
+                    <div class="valid-feedback">Email looks good</div>
+                </div>
+                <div>
+                    <label for="password" class="form-lable">Password</label>
+                    <input class="form-control" placeholder="Enter the password" name="password" type="password" required>
+                    <div class="valid-feedback">Password looks good</div>
+                </div>
+                <button class="btn btn-success mt-3">SignUp</button>
+            </form>
+        </div>
+    </div>

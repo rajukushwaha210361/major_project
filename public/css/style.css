@@ -1,0 +1,69 @@
+
+ .navbar{
+    height: 5rem;
+    background-color: #edebeb;
+ }
+ .fa-compass{
+    color: red;
+    font-size: 2rem;
+ }
+ .nav-link{
+    color: rgb(76, 72, 72);
+ }
+ .f-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:5%;
+    gap: 10px;
+    background-color: #a49d9d;
+    width: 100%;
+    padding: 10px;
+ }
+ .f-info-social{
+    font-size: 1.5rem;
+ }
+ .f-info-links a{
+   
+    text-decoration: none;
+    color: black;
+    /* font-size: 10px; */
+      
+ }
+ .f-info-links a:hover{
+    text-decoration:underline
+ }
+.cardclass{
+   justify-content:space-evenly;
+   /* justify-content: left; */
+
+}
+.listing-link{
+   text-decoration: none;
+}
+.card-img-overlay{
+   opacity: 0;
+}
+.card-img-overlay:hover{
+   background-color: white;
+   opacity: 0.3;
+}
+#navbarNavAltMarkup{
+ width: 100%;
+   background-color: rgb#edebeb;
+}
+.form-control{
+   /* margin: 2px; */
+}
+.new-listing{
+   height:100%;
+   
+}
+.show1-card{
+  display: flex;
+  justify-self: center;
+}
+.show-title{
+   text-align: center;
+}
+#map { height: 500px; width: 100%; }
